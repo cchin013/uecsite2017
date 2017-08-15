@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.4" client="site" method="upgrade">
+	<name>SP Virtuemart Product Slider II</name>
+	<author>JoomShaper.com</author>
+	<creationDate>Feb 2016</creationDate>
+	<copyright>Copyright (C) 2010 - 2016 JoomShaper. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later;</license>
+	<authorEmail>support@joomshaper.com</authorEmail>
+	<authorUrl>www.joomshaper.com</authorUrl>
+	<version>1.0</version>
+	<description>SP Virtuemart Product Slider II</description>
+	<languages>
+		<language tag="en-GB">language/en-GB.mod_sp_vmslider_ii.ini</language>
+	</languages>
+	<files>
+        <filename module="mod_sp_vmslider_ii">mod_sp_vmslider_ii.php</filename>
+        <filename>helper.php</filename>
+        <folder>assets</folder>
+        <folder>language</folder>
+        <folder>tmpl</folder>
+    </files>
+
+    <languages>
+		<language tag="en-GB">language/en-GB.mod_sp_vmslider_ii.ini</language>
+	</languages>
+
+	<files>
+		<filename module="mod_sp_vmslider_ii">mod_sp_vmslider_ii.php</filename>
+		<filename>helper.php</filename>
+		<folder>assets</folder>
+		<folder>language</folder>
+		<folder>tmpl</folder>
+	</files>
+
+	<config>
+		<fields name="params" addfieldpath="/administrator/components/com_virtuemart/fields">
+			<fieldset name="basic">
+				
+				<field name="layout"
+					type="modulelayout"
+					label="MOD_SPVMSLIDER_II_SELECT_LAYOUT"
+					description="MOD_SPVMSLIDER_II_SELECT_LAYOUT_DESC" />
+
+				<field name="virtuemart_category_id"
+					type="vmcategories" 
+					value_field="category_name" 
+					label="MOD_SPVMSLIDER_II_SELECT_CATEGORY" 
+					description="MOD_SPVMSLIDER_II_SELECT_CATEGORY_DESC" 
+				/>
+				<field name="product_group" 
+					type="list" 
+					default="featured"
+					label="MOD_SPVMSLIDER_II_PRODUCT_GROUP"
+					description="MOD_SPVMSLIDER_II_PRODUCT_GROUP_DESC">
+				    <option value="featured">MOD_SPVMSLIDER_II_FEATURED_PRODUCTS</option>
+				    <option value="latest">MOD_SPVMSLIDER_II_LATEST_PRODUCTS</option>
+				    <option value="random">MOD_SPVMSLIDER_II_RANDOM_PRODUCTS</option>
+				    <option value="topten">MOD_SPVMSLIDER_II_BEST_SALES</option>
+		             <option value="recent">MOD_SPVMSLIDER_II_PRODUCTS</option>
+				</field>
+				<field name="max_items"
+					type="number"
+					default="2"
+					label="MOD_SPVMSLIDER_II_ITEM_LIMIT"
+					description="MOD_SPVMSLIDER_II_ITEM_LIMIT_DESC" 
+				/>
+				<field name="show_price"
+					type="list"
+					default="1"
+					label="MOD_SPVMSLIDER_II_SHOW_PRICE"
+					description="MOD_SPVMSLIDER_II_SHOW_PRICE_DESC">
+				    <option value="1">JYES</option>
+				    <option value="0">JNO</option>
+				</field>
+
+				<field name="show_addtocart" type="list" default="1"
+					label="MOD_SPVMSLIDER_II_SHOW_ADDTOCART"
+					description="MOD_SPVMSLIDER_II_SHOW_ADDTOCART_DESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+
+				<field name="show_details" type="list" default="1"
+					label="MOD_SPVMSLIDER_II_SHOW_DETAILS_BUTTON"
+					description="MOD_SPVMSLIDER_II_SHOW_DETAILS_BUTTON_DESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+
+				<field name="show_countdown"
+					type="list"
+					default="1"
+					label="MOD_SPVMSLIDER_II_SHOW_COUNTDOWN"
+					description="MOD_SPVMSLIDER_II_SHOW_COUNTDOWN_DESC">
+				    <option value="1">JYES</option>
+				    <option value="0">JNO</option>
+				</field>
+			</fieldset>
+			<fieldset name="advanced">
+				<field name="vmcache" 
+					type="list"
+					default="1"
+					label="MOD_SPVMSLIDER_II_CACHING_LABEL"
+					description="MOD_VIRTUEMART_PRODUCT_CACHING_DESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				<field name="vmcachetime" 
+					type="text"
+					default="300"
+					label="MOD_SPVMSLIDER_II_CACHING_TIME_LABEL"
+					description="MOD_VIRTUEMART_PRODUCT_CACHING_TIME_DESC"
+				/>
+
+				<field
+					name="moduleclass_sfx"
+					type="text"
+					label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+					description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+				<field
+					name="cache"
+					type="list"
+					default="1"
+					label="COM_MODULES_FIELD_CACHING_LABEL"
+					description="COM_MODULES_FIELD_CACHING_DESC">
+					<option
+						value="1">JGLOBAL_USE_GLOBAL</option>
+					<option
+						value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+				</field>
+				<field
+					name="cache_time"
+					type="text"
+					default="900"
+					label="COM_MODULES_FIELD_CACHE_TIME_LABEL"
+					description="COM_MODULES_FIELD_CACHE_TIME_DESC" />
+				<field
+					name="cachemode"
+					type="hidden"
+					default="static">
+					<option
+						value="static"></option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>
