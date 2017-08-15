@@ -1,0 +1,128 @@
+a:4:{s:4:"root";s:83:"D:\Wamp\wamp64\www\uecsite2017\templates/shaper_megadeal_ii/less/frontend-edit.less";s:8:"compiled";s:2875:".layout-edit {
+  @import "bootstrap-legacy/variables";
+  @import "bootstrap-legacy/mixins";
+  @import "bootstrap-legacy/forms.less";
+  @import "bootstrap-legacy/wells.less";
+  @import "bootstrap-legacy/accordion.less";
+}
+.layout-edit select.inputbox,
+.layout-edit select {
+  width: 250px;
+  max-width: 100%;
+}
+.layout-edit .btn-toolbar {
+  margin-bottom: 20px;
+}
+.layout-edit .tab-content {
+  padding-top: 20px;
+}
+.layout-edit #editor-xtd-buttons,
+.layout-edit .toggle-editor {
+  margin-top: 20px;
+}
+.layout-edit .btn-group input[type="radio"] {
+  display: none;
+}
+iframe,
+svg {
+  max-width: 100%;
+}
+#sbox-content > iframe {
+  height: 100%;
+}
+.alert.alert-message {
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  color: #468847;
+}
+.alert.alert-message h4 {
+  color: #468847;
+}
+.manager.thumbnails {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 0 -20px;
+}
+.manager.thumbnails li {
+  text-align: center;
+  display: block;
+  float: left;
+  width: 80px;
+  height: 80px;
+  line-height: 18px;
+  border: 1px solid #ddd;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.055);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.055);
+  position: relative;
+}
+.manager.thumbnails li [class^="icon-"],
+.manager.thumbnails li [class*=" icon-"] {
+  font-size: 14px;
+  line-height: 14px;
+  color: #08c;
+  display: inline-block;
+  margin-top: 6px;
+}
+.manager.thumbnails li .height-50 {
+  margin-top: 4px;
+  height: 50px;
+  margin-bottom: 4px;
+}
+.manager.thumbnails li a {
+  text-decoration: none;
+  color: #08c;
+  font-size: 13px;
+}
+.manager.thumbnails li:hover {
+  background: #f7fcff;
+  border-color: rgba(82,168,236,0.8);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(82,168,236,0.6);
+  -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(82,168,236,0.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(82,168,236,0.6);
+  -webkit-transition: all 400ms;
+  transition: all 400ms;
+}
+#mailto-window {
+  margin: 20px;
+}
+#mailto-window >h2 {
+  font-size: 18px;
+  margin-top: 0;
+}
+#mailto-window input[type="text"] {
+  height: auto !important;
+}
+.chzn-container.chzn-container-multi input[type="text"] {
+  min-height: 30px;
+}
+.com-content-adminForm textarea {
+  width: 350px;
+  height: 100px;
+}
+.com-config .form-horizontal .accordion-body {
+  overflow: hidden;
+}
+.com-config .form-horizontal .accordion-body.in:hover {
+  overflow: visible;
+}
+.com-config .form-horizontal .accordion-body .input-prepend.input-append .media-preview.add-on {
+  height: 34px;
+  line-height: 26px;
+}
+.com-config .form-horizontal .accordion-body .input-prepend.input-append .btn {
+  position: relative;
+  cursor: pointer;
+  color: #333;
+  border: 1px solid #bbb;
+}
+.edit.item-page .modal {
+  position: initial;
+}
+.edit.item-page .media-preview.add-on {
+  height: 34px;
+  line-height: 28px;
+}
+";s:5:"files";a:18:{s:86:"D:\Wamp\wamp64\www\uecsite2017\templates\shaper_megadeal_ii\less\legacy\bootstrap.less";i:1502783578;s:86:"D:\Wamp\wamp64\www\uecsite2017\templates\shaper_megadeal_ii\less\legacy\variables.less";i:1502783578;s:83:"D:\Wamp\wamp64\www\uecsite2017\templates\shaper_megadeal_ii\less\legacy\mixins.less";i:1502783578;s:81:"D:\Wamp\wamp64\www\uecsite2017\templates\shaper_megadeal_ii\less\legacy\grid.less";i:1502783578;s:82:"D:\Wamp\wamp64\www\uecsite2017\templates\shaper_megadeal_ii\less\legacy\forms.less";i:1502783578;s:82:"D:\Wamp\wamp64\www\uecsite2017\templates\shaper_megadeal_ii\less\legacy\wells.less";i:1502783578;s:86:"D:\Wamp\wamp64\www\uecsite2017\templates\shaper_megadeal_ii\less\legacy\accordion.less";i:1502783578;s:104:"D:\Wamp\wamp64\www\uecsite2017\templates\shaper_megadeal_ii\less\legacy\responsive-767px-max.joomla.less";i:1502783578;s:76:"D:\Wamp\wamp64\www\uecsite2017\templates\shaper_megadeal_ii\less\master.less";i:1502783578;s:79:"D:\Wamp\wamp64\www\uecsite2017\templates\shaper_megadeal_ii\less\variables.less";i:1502783579;s:76:"D:\Wamp\wamp64\www\uecsite2017\templates\shaper_megadeal_ii\less\mixins.less";i:1502783578;s:77:"D:\Wamp\wamp64\www\uecsite2017\templates\shaper_megadeal_ii\less\icomoon.less";i:1502783578;s:74:"D:\Wamp\wamp64\www\uecsite2017\templates\shaper_megadeal_ii\less\menu.less";i:1502783578;s:75:"D:\Wamp\wamp64\www\uecsite2017\templates\shaper_megadeal_ii\less\theme.less";i:1502783579;s:79:"D:\Wamp\wamp64\www\uecsite2017\templates\shaper_megadeal_ii\less\shortcode.less";i:1502783579;s:80:"D:\Wamp\wamp64\www\uecsite2017\templates\shaper_megadeal_ii\less\responsive.less";i:1502783578;s:77:"D:\Wamp\wamp64\www\uecsite2017\templates\shaper_megadeal_ii\less\presets.less";i:1502783578;s:83:"D:\Wamp\wamp64\www\uecsite2017\templates\shaper_megadeal_ii\less\frontend-edit.less";i:1502783578;}s:7:"updated";i:1502783729;}
