@@ -1,4 +1,4 @@
-.clearfix {
+a:4:{s:4:"root";s:69:"C:\wamp64\www\templates/shaper_megadeal_ii/less/legacy/bootstrap.less";s:8:"compiled";s:27509:".clearfix {
   *zoom: 1;
 }
 .clearfix:before,
@@ -1113,3 +1113,4 @@ legend + .control-group {
     right: 10px;
   }
 }
+";s:5:"files";a:8:{s:69:"C:\wamp64\www\templates\shaper_megadeal_ii\less\legacy\bootstrap.less";i:1499291070;s:69:"C:\wamp64\www\templates\shaper_megadeal_ii\less\legacy\variables.less";i:1499291070;s:66:"C:\wamp64\www\templates\shaper_megadeal_ii\less\legacy\mixins.less";i:1499291070;s:64:"C:\wamp64\www\templates\shaper_megadeal_ii\less\legacy\grid.less";i:1499291070;s:65:"C:\wamp64\www\templates\shaper_megadeal_ii\less\legacy\forms.less";i:1499291070;s:65:"C:\wamp64\www\templates\shaper_megadeal_ii\less\legacy\wells.less";i:1499291070;s:69:"C:\wamp64\www\templates\shaper_megadeal_ii\less\legacy\accordion.less";i:1499291070;s:87:"C:\wamp64\www\templates\shaper_megadeal_ii\less\legacy\responsive-767px-max.joomla.less";i:1499291070;}s:7:"updated";i:1502784163;}
