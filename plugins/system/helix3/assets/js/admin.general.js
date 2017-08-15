@@ -172,7 +172,7 @@ jQuery(function($){
       $(this).insertBefore($(this).parent().find('.input-append'));
     });
 
-    $( '.controls .field-media-preview' ).not( 'img' ).each(function(){
+    $( '.control-group .field-media-preview' ).not( 'img' ).each(function(){
       $(this).append('<div id="preview_empty">No image selected.</div>');
     });
 

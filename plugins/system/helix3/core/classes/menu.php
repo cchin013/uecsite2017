@@ -446,7 +446,7 @@ class Helix3Menu {
 		}
 
 		$flink = $item->flink;
-		$flink = str_replace('&amp;', '&', JFilterOutput::ampReplace(htmlspecialchars($flink)));
+		$flink = JFilterOutput::ampReplace(htmlspecialchars($flink));
 
 		$output = '';
 		$options ='';
