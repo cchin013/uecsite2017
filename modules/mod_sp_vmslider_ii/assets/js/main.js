@@ -1,4 +1,4 @@
-jQuery(function ($) { 'use strict'
+jQuery(function ($) { //'use strict'
 
    $('.sp-vmslider-countdown[data-countdown]').each(function() {
       var $this = $(this), finalDate = $(this).data('countdown');
@@ -16,8 +16,13 @@ jQuery(function ($) { 'use strict'
 
     spVmSlider2.owlCarousel({
         loop: true,
-        lazyLoad : true,
+        lazyLoad : false,
         dots: true,
+        autoplay: true,
+        autoplaySpeed: 750,
+        autoplayTimeout: 4200,
+        slideBy: 3,
+        autoplayHoverPause: true,
         nav: false,
         navText: ["<a class='fa fa-angle-left carousel-nav-left'></a>", "<a class='fa fa-angle-right carousel-nav-right'></a>"],
         responsive:{
@@ -47,6 +52,7 @@ jQuery(function ($) { 'use strict'
         dots: false,
         nav: false,
         margin: 30,
+        slideBy: 3,
         navText: ["<a class='fa fa-angle-left carousel-nav-left'></a>", "<a class='fa fa-angle-right carousel-nav-right'></a>"],
         responsive:{
             0:{

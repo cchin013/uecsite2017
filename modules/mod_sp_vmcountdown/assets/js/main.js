@@ -9,14 +9,22 @@ jQuery(function ($) {
     });
 
 
-	// carousel countdown slider
+// carousel countdown slider
 	var spVmCoundown = $(".sp-vmcountdown-slide");
 	spVmCoundown.owlCarousel({
-      loop:true,
-      lazyLoad : true,
-      dots:false,
-      nav:true,
+      loop: true,
+      lazyLoad: true,
+      dots: true,
+      dotsEach: 1,
+      autoplay: true, //added this line
+      autoplayTimeout: 5000,
+      autoplayHoverPause: true,
+      autoplaySpeed: 1500,
+      speed: 12000,
+      nav: true,
       navText: ["<a class='sp-vm-slider-ii-prev fa fa-angle-left carousel-nav-left'></a>", "<a class='sp-vm-slider-ii-next fa fa-angle-right carousel-nav-right'></a>"],
+      //animateIn: 'fadeIn',
+      //animateOut: 'fadeOut',
       responsive:{
             0:{
                 items:1
