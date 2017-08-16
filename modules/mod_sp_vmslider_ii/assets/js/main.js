@@ -18,6 +18,10 @@ jQuery(function ($) { 'use strict'
         loop: true,
         lazyLoad : true,
         dots: true,
+        slideBy: 3,
+        autoplay: true,
+        autoplayTimeout: 4500,
+        autoplaySpeed: 300,
         nav: false,
         navText: ["<a class='fa fa-angle-left carousel-nav-left'></a>", "<a class='fa fa-angle-right carousel-nav-right'></a>"],
         responsive:{

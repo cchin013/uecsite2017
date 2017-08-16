@@ -15,6 +15,10 @@ jQuery(function ($) {
       loop:true,
       lazyLoad : true,
       dots:false,
+      autoplay: true,
+      autoplayTimeout: 4500,
+      autoplaySpeed: 1500,
+      
       nav:true,
       navText: ["<a class='sp-vm-slider-ii-prev fa fa-angle-left carousel-nav-left'></a>", "<a class='sp-vm-slider-ii-next fa fa-angle-right carousel-nav-right'></a>"],
       responsive:{
