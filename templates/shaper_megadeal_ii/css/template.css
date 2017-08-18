@@ -6057,3 +6057,11 @@ input[type="color"]:focus,
     padding: 0;
   }
 }
+body {
+  background-image: url("https://boygeniusreport.files.wordpress.com/2015/10/apple-store-queens-center-mall.png");
+  height: 200px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
